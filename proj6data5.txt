@@ -1,0 +1,10 @@
+# this file invokes proj6data4.txt
+# which invokes this file causing a potential 
+# infinite recursive loop
+i 2 5
+t 5 1
+t 2 6
+f proj6data4.txt
+t 7 2
+t 5 5  
+t 1 6
